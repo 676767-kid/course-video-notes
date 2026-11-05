@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行时产物
+out/
+*.log
+.cvn-venv/
+.cvn-venv-cache/
+
+# OCR 中间产物
+.ocr-variants/
+
+# 模型缓存
+.hf-home/
+*.onnx
+
+# macOS
+.DS_Store
+
+# 用户数据（登录态、讲义内容）
+*_state.json
+urls.json
